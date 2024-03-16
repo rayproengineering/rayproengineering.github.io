@@ -2,96 +2,182 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Roman Yoder
+    - name: Phone Number
+      value: (480) 249-2201
+    - name: Email
+      value: rayproengineering@gmail.com
+    # - name: Date of Birth
+    #   value: 14th March 1879
+    # - name: Languages
+    #   value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science in Mechanical Engineering (Robotics Focused)
+      institution: Texas A&M University
+      year: 2021 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "GPA : 3.72"
+        - Focused in advanced course work for robotics, including robotic manipulators, reinforcement learning, Non-linear control and more.
+        - title: Thesis in automated welding utilizing a UR10e.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Tailored the solution to local manufactures.
+            - Successful automatin of welding utilizing a 6-axis rotational joint robotic manipulator.
+            - Integrated MIG welding apparatus with robotic arm and ROS network.
+            - Custom Traveling Salesman Problem Solver utilizing a Mixed Integer Program for uniquely derived ineqalities to optimize weld and tack order for maximum throughput.
+            - ROS and Python for path planningm part interpretation and control.
+            - Human-robot collaboration to indentify work-piece location.
+    - title: Bachleor of Science in Mechanical Engineering
+      institution: Colorado State University
+      year: 2017 - 2021
       description:
-        - Description 1.
-        - Description 2.
-
+        - "GPA : 3.65"
+        - title: Capstone Senior Research Practicum in Jet Impingement Server Cooling
+          contents:
+            - Qualified for course based on high academic standing.
+            - Conducted graduate-level research developing single investigator skills, reviewing the open literature, and expiremental design.
+            - Developed expirmental aparatys and test to quantify jet impingment cooling effectivness of given server's CPUs.
+            - Created pressure drop models and diagrams.
+            - Culminated with undergraduate based Thesis and research presentation.
+        
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: Texas A&M University
+      year: 2023
+
+    - title: Contract Research Engineer
+      institution: Medtronic
+      year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Succesful automation of method to identify and generate paths through model of a lungs bronchial network.
+        - Generated path utilized to guide an autonomous robotic catheter to desired points.
+        - Implimented utilizing a generation binary tree aproach.
+    
+    - title: Graduate Teaching Assistant
+      institution: Texas A&M University
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
+        - GTA in undergraduate Advanced Dynamics and Controls, facilitating advanced understanding of PID synthisis, cordinated frames, Newton and Lagrange Dynamics.
+        - GTA in Graduate Controls.
+        - Lab GTA in undergaduate Dynamics and Controls, teaching MATLAB, Simulink, P, PI, and PID control.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    # - title: Profesional Mover
+    #   year: 2021
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Undergraduate Learning Assistant
+      institution: Colorado State University
+      year: 2019
       description:
+        - Engineering Mechanics-Dynamics
+        - Assistated undergraduates during class time to aid in learning.
+        - Additionally worked as a private tutor
+        - Additionally worked as a grader for Heat and Mass
+    
+    - title: Technical Resource Engineering Internship
+      institution: Forterra Pipe and Precast
+      year: 2019
+      description:
+        - Involved in marketing strategy, outreach and customer education.
+        - Worked with design engineers to verify box culverts and manhole drawing to ASTM & FDOT specifications.
+    
+    - title: Sushi Chef
+      institution: Suehiro
+      year: 2016-2018
+      description:
+        - Trained as a Sushi Chef after working as a Dishwasher.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Volunteering
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Undergraduate Research Assistant
+      institution: Colorado State University, Superconductivity Physics Lab
+      year: 2018-2019
+      description:
+        - Created transition edge sensors by spinning photo resist and UV exposure on silicon dies.
+        - Gained experience in lithographic techniques
+
+- title: Skills
+  contents:
+  - Mechatronics, C++, Python, BASH, MATLAB, Simulink, CAD, Advanced Math, Robotic Operating System (ROS), Physics, Magnetic and Electrical Circuits, Kinematics and Dynamics, Reinforcement Learning, Algorithms, Linear Algebra, Non-linear Systems and Controls, Control System Design, PID Synthesis, Automation, Git and more.
+
+- title: Certificates in
+  type: list
+  contents:
+    - Python
+    - C++
+
+- title: Additional Advanced Course Work in
+  type: nested_list
+  contents:
+    - title: Reinforcement Learning
+      items:
+        - Characterization of various RL algorithms, possible domains, with implimentation in Python.
+    - title: Non-Linear and Classical Controls
+      items:
+        - Exploration of classic non-linear technics including adaptive control, feedback linearization, and sliding mode control.
+    - title: Combustion Science
+    - title: Vehicle Dynamics
+    - title: Turbo Machinery
+    - title: Advanced Mechanical Systems
+    - title: Robotic Manipulators
+    - title: Dynamics of Mechatronic Systems
+    - title: Optimization
+
+- title: Additional Projects (Course or Independent)
+  type: nested_list
+  contents:
+    - title: Non-linear Controls Course Project in Feedback Linearization for Missile Control
+      items:
+        - Derived governing equations for dynamics of a missile in a 2D Enviroment.
+        - Used Feedback Linearization to vary thrust vectoring, guiding missile along desired trajectory angle.
+        - Simulated in MATLAB.
+    - title: Course Projects in Mechanics of Robotic Manipulators
+      items: 
+        - Course project in motion planning for a 3 degree of freedom robotic arm in MATLAB
+        - Additional Project involving ground up implimentation of Dubin's Vehicle Algorithm to solve optimim trajectoy between two points with desired headings. This was then coupled with a travelling salesman solver to find the optimum path and order through a network of points and headings - Implimented in MATLAB.
+    - title: Reinfrocement Learning, Missile Interception
+      items:
+      - Group project for training of missile agent to intercept incoming missile target in game enviroment.
+      - Design of Reward functions based on agent and target missile states.
+      - Advantage Actor Critic aproach with successful handling of variable trajectory and start location states.
+    - title: Mechatronics Course Project, Electro-Mechanical Door Lock
+      items:
+      - Hardware/software implementation for a microcontroller-based door lock; utilizing keypads, photoresistors, and proximity sensors
+      - Implimented in PICBASIC and Arduino
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2018-2021
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Dean's list 5 semesters.
+    - year: 2019
       items:
-        - Max Planck Medal
+        - Placed third for course project in Mechatronics.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Robotics
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Path Planning
+        - Dynamics, Kinematics
+        - Algorithm Development
+    - title: Controls
+    - title: Optimization
+    - title: Software, Reinforcement Learning and AI
 
-- title: Other Interests
+- title: Other Interests and Hobbies
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Piano, Hiking, Cooking, Weightlifting, and Skiing.
