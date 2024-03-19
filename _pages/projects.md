@@ -6,7 +6,7 @@ description: Find details for each of my projects below
 nav: true
 nav_order: 2
 display_categories: [Graduate Engineering, Undergraduate Engineering, Work, Personal]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
