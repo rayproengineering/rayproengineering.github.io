@@ -23,11 +23,11 @@
         - Focused in advanced course work for robotics, including robotic manipulators, reinforcement learning, Non-linear control and more.
         - title: Thesis in automated welding utilizing a UR10e.
           contents:
-            - Tailored the solution to local manufactures.
-            - Successful automatin of welding utilizing a 6-axis rotational joint robotic manipulator.
+            - Tailored the solution to local manufacturers.
+            - Successful automation of robotic welding utilizing a 6-axis rotational joint robotic manipulator.
             - Integrated MIG welding apparatus with robotic arm and ROS network.
             - Custom Traveling Salesman Problem Solver utilizing a Mixed Integer Program for uniquely derived ineqalities to optimize weld and tack order for maximum throughput.
-            - ROS and Python for path planningm part interpretation and control.
+            - ROS and Python for path planning part interpretation and control.
             - Human-robot collaboration to indentify work-piece location.
     - title: Bachleor of Science in Mechanical Engineering
       institution: Colorado State University
@@ -38,9 +38,9 @@
           contents:
             - Qualified for course based on high academic standing.
             - Conducted graduate-level research developing single investigator skills, reviewing the open literature, and expiremental design.
-            - Developed expirmental aparatys and test to quantify jet impingment cooling effectivness of given server's CPUs.
+            - Developed expirmental apparatus and test to quantify jet impingment cooling effectiveness of given server's CPUs.
             - Created pressure drop models and diagrams.
-            - Culminated with undergraduate based Thesis and research presentation.
+            - Culminated with undergraduate based thesis and research presentation.
         
 - title: Experience
   type: time_table
@@ -55,13 +55,13 @@
       description:
         - Succesful automation of method to identify and generate paths through model of a lungs bronchial network.
         - Generated path utilized to guide an autonomous robotic catheter to desired points.
-        - Implimented utilizing a generation binary tree aproach.
+        - Implimented utilizing a generational binary tree approach.
     
     - title: Graduate Teaching Assistant
       institution: Texas A&M University
       year: 2022
       description:
-        - GTA in undergraduate Advanced Dynamics and Controls, facilitating advanced understanding of PID synthisis, cordinated frames, Newton and Lagrange Dynamics.
+        - GTA in undergraduate Advanced Dynamics and Controls, facilitating advanced understanding of PID synthisis, coordinate frames, Newton and Lagrange Dynamics.
         - GTA in Graduate Controls.
         - Lab GTA in undergaduate Dynamics and Controls, teaching MATLAB, Simulink, P, PI, and PID control.
 
@@ -138,16 +138,16 @@
     - title: Course Projects in Mechanics of Robotic Manipulators
       items: 
         - Course project in motion planning for a 3 degree of freedom robotic arm in MATLAB
-        - Additional Project involving ground up implimentation of Dubin's Vehicle Algorithm to solve optimim trajectoy between two points with desired headings. This was then coupled with a travelling salesman solver to find the optimum path and order through a network of points and headings - Implimented in MATLAB.
-    - title: Reinfrocement Learning, Missile Interception
+        - Additional Project involving ground up implementation of Dubin's Vehicle Algorithm to solve optimum trajectory between two points with desired headings. This was then coupled with a traveling salesman solver to find the optimum path and order through a network of points and headings - Implemented in MATLAB.
+    - title: Reinforcement Learning, Missile Interception
       items:
       - Group project for training of missile agent to intercept incoming missile target in game enviroment.
       - Design of Reward functions based on agent and target missile states.
-      - Advantage Actor Critic aproach with successful handling of variable trajectory and start location states.
+      - Advantage Actor Critic approach with successful handling of variable trajectory and start location states.
     - title: Mechatronics Course Project, Electro-Mechanical Door Lock
       items:
       - Hardware/software implementation for a microcontroller-based door lock; utilizing keypads, photoresistors, and proximity sensors
-      - Implimented in PICBASIC and Arduino
+      - Implemented in PICBASIC and Arduino
 # - title: Open Source Projects
 #   type: time_table
 #   contents:

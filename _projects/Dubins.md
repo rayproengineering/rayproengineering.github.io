@@ -8,7 +8,7 @@ category: Graduate Engineering
 related_publications: false
 ---
 
-This project involved ground up implimentation of Dubin's Vehicle Algorithm to solve optimim trajectoy between two points with desired headings. This was then coupled with a travelling salesman solver to find the optimum path and order through a network of points and headings - Implimented in MATLAB.
+This project involved ground up implementation of Dubin's Vehicle Algorithm to solve optimum trajectory between two points with desired headings. This was then coupled with a travelling salesman solver to find the optimum path and order through a network of points and headings - Implimented in MATLAB.
 
 ---
 

@@ -8,7 +8,7 @@ category: Graduate Engineering
 related_publications: false
 ---
 
-This project involved the solving of classical missile control problem with the non-linear control technique known as feedback linearization. This included accurate aproximation of the missile dynamics and deriving the control stragety that produced desirable missile trajectories.
+This project involved the solving of a classical missile control problem with the non-linear control technique known as feedback linearization. This included accurate approximation of missile dynamics and deriving control stragety that produced desirable missile trajectories.
 
 ---
 
