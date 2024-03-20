@@ -21,9 +21,7 @@ This project involved the integration of a welding system into a pre-owned 6-axi
 
 ---
 <div>
-    <object data="/assets/pdf/YODER-THESIS-2023.pdf" width="1000" height="1000" type="application/pdf"></object>
+    <object data="/assets/pdf/YODER-THESIS-2023.pdf" width="1000" height="1000"></object>
 <div>
 
-<div>
-    <embed src="/assets/pdf/YODER-THESIS-2023.pdf" width="500" height="375" type="application/pdf">
-<div>
+
