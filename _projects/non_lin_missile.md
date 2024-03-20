@@ -13,5 +13,5 @@ This project involved the solving of a classical missile control problem with th
 ---
 
 <div>
-    <object data="../assets/pdf/Non_lin_Project_write_up_turnin.pdf" width="1000" height="1000" type="application/pdf"></object>
+    <object data="../../assets/pdf/Non_lin_Project_write_up_turnin.pdf" width="1000" height="1000" type="application/pdf"></object>
 <div>
