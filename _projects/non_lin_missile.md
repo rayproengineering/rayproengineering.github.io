@@ -12,4 +12,4 @@ This project involved the solving of a classical missile control problem with th
 
 ---
 
-<object data="{{ site.url }}{{ site.baseurl }}/assets/pdf/Non_lin_Project_write_up_turnin.pdf" width="1000" height="1000" type="application/pdf"></object>
+<object data="_site/assets/pdf/Non_lin_Project_write_up_turnin.pdf" width="1000" height="1000" type="application/pdf"></object>

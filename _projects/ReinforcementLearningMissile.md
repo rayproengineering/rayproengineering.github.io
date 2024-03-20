@@ -17,4 +17,4 @@ This project involved the training of a controled missile agent to intercept an 
 
 ---
 
-<object data="{{ site.url }}{{ site.baseurl }}/assets/pdf/CSCE_689__Project.pdf" width="1000" height="1000" type="application/pdf"></object>
+<object data="{{ site.url }}/assets/pdf/CSCE_689__Project.pdf" width="1000" height="1000" type="application/pdf"></object>

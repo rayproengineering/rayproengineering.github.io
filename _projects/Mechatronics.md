@@ -23,4 +23,4 @@ Further, becuase of the success in our project we were able to place in the top 
 
 ---
 
-<object data="{{ site.url }}{{ site.baseurl }}/assets/pdf/Final Report_Mechatronics_Project.pdf" width="1000" height="1000" type="application/pdf"></object>
+<object data="../assets/pdf/Final Report_Mechatronics_Project.pdf" width="1000" height="1000" type="application/pdf"></object>
