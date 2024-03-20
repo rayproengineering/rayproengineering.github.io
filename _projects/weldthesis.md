@@ -5,7 +5,6 @@ description:
 img: assets/img/Simulated_UR10e_nogrid.png
 importance: 1
 category: Graduate Engineering
-pdf: /assets/pdf/YODER-THESIS-2023.pdf
 related_publications: false
 ---
 
