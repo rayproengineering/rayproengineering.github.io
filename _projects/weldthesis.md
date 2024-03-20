@@ -21,6 +21,6 @@ This project involved the integration of a welding system into a pre-owned 6-axi
 </div>
 
 ---
-<embed src="http://www.rayproengineering.com/assets/pdf/YODER-THESIS-2023.pdf" width="1000" height="1000"  type="application/pdf">
+<embed src="/assets/pdf/YODER-THESIS-2023.pdf" width="1000" height="1000"  type="application/pdf">
 
 
