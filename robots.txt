@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: www.rayproengineering.com/_site/sitemap.xml
+Sitemap: www.rayproengineering.com/sitemap.xml
