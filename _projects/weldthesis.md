@@ -22,6 +22,7 @@ This project involved the integration of a welding system into a pre-owned 6-axi
 </div>
 
 ---
-<embed src="https://www.dropbox.com/scl/fi/oglwe4rjadwh73a81h3f0/YODER-THESIS-2023.pdf?rlkey=s9wfkw0w8yxfpcbpwdbtlzhn4&dl=0" width="500" height="375" type="application/pdf">
 
-
+<div>
+    <object data="{{ site.url }}{{site.baseurl}}/assets/pdf/YODER-THESIS-2023.pdf" width="1000" height="1000" type="application/pdf"></object>
+<div>

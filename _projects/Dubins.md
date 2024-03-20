@@ -12,4 +12,6 @@ This project involved ground up implementation of Dubin's Vehicle Algorithm to s
 
 ---
 
-<object data="{{ site.url }}{{ site.baseurl }}/assets/pdf/MEEN_612_Project_2.pdf" width="1000" height="1000" type="application/pdf"></object>
+<div>
+    <object data="{{ site.url }}{{site.baseurl}}/assets/pdf/MEEN_612_Project_2.pdf" width="1000" height="1000" type="application/pdf"></object>
+<div>
