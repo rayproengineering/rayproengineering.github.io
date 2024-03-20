@@ -5,6 +5,7 @@ description:
 img: assets/img/Simulated_UR10e_nogrid.png
 importance: 1
 category: Graduate Engineering
+pdf: /assets/pdf/YODER-THESIS-2023.pdf
 related_publications: false
 ---
 
@@ -14,6 +15,7 @@ This project involved the integration of a welding system into a pre-owned 6-axi
 
 ---
 
+
 <div class="row mt-3">
     <div class="col-sm mt-4 mt-md-0">
         {% include video.liquid path="assets/video/weld_vid_mp4.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
@@ -21,6 +23,6 @@ This project involved the integration of a welding system into a pre-owned 6-axi
 </div>
 
 ---
-<embed src="/assets/pdf/YODER-THESIS-2023.pdf" width="1000" height="1000"  type="application/pdf">
+<object data="/assets/pdf/YODER-THESIS-2023.pdf" width="1000" height="1000" type='application/pdf'/>
 
 
