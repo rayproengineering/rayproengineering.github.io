@@ -23,7 +23,7 @@ social: true # includes social icons at the bottom of the page
 ---
 I am Roman Yoder, a determined engineer with a passion for controls, programming, and robotics. I have spent the last 7 years honing my skill set at two universities. I have a love for problem solving, and real world implementation to bring new technology to consumers.
 
-
+As of April 2024: I have been working on robotic surgery development for medtronic! Still feel free to check out a video from my thesis below.
 ---
 
 <div class="row mt-3">
