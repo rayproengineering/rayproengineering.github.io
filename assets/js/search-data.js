@@ -44,7 +44,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "books-modern-robotics",
+            },{id: "post-what-software-skills-i-had-to-learn-as-a-mechanical-engineer-in-robotics-and-controls-summary",
+        
+          title: "What software skills I had to learn as a mechanical engineer in robotics...",
+        
+        description: "An overview of the self taught skills I recommend mechanical engineers who are interested in the robotics field learn.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/Learning-Robotics-as-an-ME/";
+          
+        },
+      },{id: "books-modern-robotics",
           title: 'Modern Robotics',
           description: "",
           section: "Books",handler: () => {
