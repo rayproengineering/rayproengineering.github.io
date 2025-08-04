@@ -118,8 +118,8 @@
         - Simulated entire system in MATLAB.
     - title: Robotic Manipulator & Path Planning
       items:
-        - Developed 3-DOF manipulator motion planning using Dubin’s path constraints.
-        - Coupled with a TSP solver for optimal routing through networks of targets.
+        - Developed 3-DOF manipulator motion planning
+        - Additionally developed Dubin’s path algorithm and coupled with a TSP solver for optimal routing through networks of targets.
         - Implemented and validated in MATLAB.
     - title: Mechatronics Course Project – Electro-Mechanical Door Lock
       items:
