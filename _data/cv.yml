@@ -105,7 +105,7 @@
     - title: Capstone – Jet Impingement Server Cooling
       items:
         - Investigated CPU cooling performance via jet impingement in a custom-built thermal management system.
-        - Developed pressure drop models and evaluated experimental vs. analytical thermal performance.
+        - Developed pressure drop models and evaluated experimental vs. theoretical thermal performance.
         - Delivered final technical presentation and undergraduate thesis.
     - title: Reinforcement Learning – Missile Interception
       items:
