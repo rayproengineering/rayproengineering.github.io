@@ -1,93 +1,140 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Roman Yoder
+    - name: Phone Number
+      value: (480) 249-2201
+    - name: Email
+      value: rayproengineering@gmail.com
+
 - title: Experience
   type: time_table
   contents:
     - title: Software Controls Engineer, Surgical Robotics
       institution: Medtronic
-      year: 2024 – Present
+      year: 2024 - Present
       description:
         - Developed core control software for a flexible tendon-driven catheter system for robotic-assisted lung procedures.
-        - Transitioned experimental research code into a robust, scalable, production-grade implementation as part of the New Product Development (NPD) lifecycle.
-        - Filed multiple internal IP disclosures covering: catheter auto-homing, redundant DOF insertion techniques, buckling detection and mitigation, and continuum force estimation.
-        - Designed and implemented a delay pre-compensation algorithm to correct for kinematic latency in tendon transmission.
-        - Built digital-twin-based safety heuristics to evaluate insertion risk and infer catheter shape using deviation from expected insertion length.
-        - Created a modular Jacobian-based optimization framework to decouple kinematic subproblems and enable scalable trajectory planning.
-
+        - Transitioned experimental research code into production-grade implementation as part of the New Product Development (NPD) lifecycle.
+        - 'Filed internal IP disclosures: catheter auto-homing, redundant DOF insertion, buckling mitigation, continuum force estimation.'
+        - Designed and implemented delay pre-compensation to correct tendon transmission latency.
+        - Built digital-twin-based safety heuristics to infer catheter shape and assess insertion risk.
+        - Created modular Jacobian-based optimization to decouple kinematic subproblems and enable scalable trajectory planning.
     - title: Research Engineer (Contract)
       institution: Medtronic
-      year: 2023
+      year: 2022 - 2023
       description:
-        - Developed efficient path planning algorithms through 3D lung vascular models for autonomous catheter navigation.
-        - Integrated generational binary-tree search to compute traversal paths used in real-time control of a robotic catheter prototype.
-
+        - Automated path generation for a flexible robotic catheter navigating lung bronchial networks by using generational binary tree structures to extract control points.
+        - Fitted preliminary B-splines to control points, and post-processed trajectories based on parametric derivatives for smooth, executable motion.
     - title: Graduate Research Assistant
       institution: Texas A&M University
       year: 2023
-
+      description:
+      - In addition to thesis work, contributed to proposal for automatic cash counting for cash counting logistics company
     - title: Graduate Teaching Assistant
       institution: Texas A&M University
-      year: 2022
+      year: 2022(2-Semesters)
       description:
-        - Assisted in Advanced Dynamics and Controls (undergraduate), Graduate Controls, and undergraduate labs.
-        - Topics included PID control synthesis, coordinate transformations, Newtonian and Lagrangian mechanics.
-        - Led lab instruction and MATLAB/Simulink-based simulation work for various control applications.
-
+        - 'GTA in undergraduate Dynamics and Controls: Led lab instruction and MATLAB/Simulink-based simulation/experimentation work for various control applications teaching P, PI, and PID control.'
+        - 'GTA in undergraduate Advanced Dynamics and Controls: facilitating advanced understanding of PID synthesis, coordinate frames, Newton and Lagrange Dynamics.'
+        - 'GTA in Graduate Controls.'
+    - title: Professional Mover
+      year: 2021
+    - title: Undergraduate Research Assistant
+      institution: Colorado State University, Commercialization Hub CoLab
+      description: 
+      - 'see projects: Capstone - Jet Impingement Server Cooling'
+      year: 2020 - 2021
     - title: Undergraduate Learning Assistant
       institution: Colorado State University
       year: 2019
       description:
-        - Supported students in Engineering Mechanics–Dynamics through class instruction and 1:1 tutoring.
+        - Assisted undergraduates during class time to aid in learning.
+        - Supported students in Engineering Mechanics-Dynamics through class instruction and 1:1 tutoring.
         - Graded coursework for Heat and Mass Transfer.
-
     - title: Technical Resource Engineering Intern
       institution: Forterra Pipe and Precast
       year: 2019
       description:
         - Conducted design verification of box culvert and manhole drawings per ASTM and FDOT specifications.
         - Contributed to customer outreach and marketing strategies in technical education.
-
+        - First hand look into creation of DOT policy creation and funds allocation.
+        - 'Attended civil engineering conferences or toured manufacturing plants in: Memphis TN, Biloxi MS, New Orleans LA, Austin TX.'
     - title: Sushi Chef
       institution: Suehiro
-      year: 2016–2018
+      year: 2016 - 2018
       description:
         - Trained as a sushi chef following initial role as dishwasher.
-
+- title: Education
+  type: time_table
+  contents:
+    - title: Master of Science in Mechanical Engineering (Robotics Focused)
+      institution: Texas A&M University
+      year: 2021 - 2023
+      description:
+        - "GPA : 3.72"
+        - 'Focused in advanced robotics coursework: manipulators, reinforcement learning, non-linear control, etc.'
+        - Completed thesis and project work in robotic welding, nonlinear control, and reinforcement learning (see Projects section).
+    - title: Bachelor of Science in Mechanical Engineering
+      institution: Colorado State University
+      year: 2017 - 2021
+      description:
+        - "GPA : 3.65"
+        - Completed capstone project in jet impingement cooling (see Projects section).
+        - Qualified for advanced coursework based on high academic performance.
+    - title: Mechanical Engineering
+      institution: University of Nebraska-Lincoln
+      year: 2016 - 2017
+      description:
+        - "GPA : 3.6"
 - title: Projects & Research
   type: nested_list
   contents:
-    - title: Master's Thesis – Robotic Welding Automation
+    - title: Master's Thesis – Robotic Welding Automation (Completed in 9 months)
       items:
-        - Designed an automated welding system using a 6-DOF UR10e robotic arm integrated with MIG welding tools and ROS-based control.
-        - Developed a custom Traveling Salesman Problem (TSP) solver using a Mixed Integer Program (MIP) formulation to optimize weld/tack order for throughput.
-        - Implemented human-robot collaboration tools for part localization and adaptive trajectory execution.
+        - Tailored solution to local manufacturers needs.
+        - Designed an automated welding system using a 6-DOF UR10e robotic arm.
+        - Integrated a Miller MIG welding tool, power supply and wire feeder with a ROS based control system and planner.
+        - Developed a custom Traveling Salesman Problem (TSP) solver using a Mixed Integer Program (MIP) to optimize weld/tack order. Scaled cost of paths based on scaled weight for joint movement cost.
+        - Segmented initial configuration into kinematic families to produce trajectories in a consistent joint subspace.
+        - Implemented human-robot collaboration algorithms and procedures for part localization and adaptive trajectory execution.
+        - Generated smooth joint trajectories based on pre-planned paths with desired weld parameters.
+        - Tuned weld parameters based on qualitative feedback.
         - Conducted both simulation-based and real-world validation of robotic weld paths.
-
     - title: Capstone – Jet Impingement Server Cooling
       items:
         - Investigated CPU cooling performance via jet impingement in a custom-built thermal management system.
         - Developed pressure drop models and evaluated experimental vs. analytical thermal performance.
         - Delivered final technical presentation and undergraduate thesis.
-
     - title: Reinforcement Learning – Missile Interception
       items:
         - Designed and trained an RL agent using an Advantage Actor-Critic (A2C) framework to intercept variable-trajectory missile targets.
-        - Implemented state-dependent reward functions and evaluated robustness across a range of dynamic initial conditions.
-
+        - Implemented state-dependent reward functions and evaluated robustness across varied initial conditions.
     - title: Feedback Linearization – Missile Trajectory Control
       items:
-        - Derived dynamic equations for missile motion in a 2D environment and applied feedback linearization to control trajectory.
-        - Implemented and simulated control system in MATLAB for validation.
-
+        - Derived governing equations for missile dynamics in 2D based on fluid/aero-dynamic principles
+        - Applied feedback linearization to vary thrust vectoring for trajectory control.
+        - Simulated entire system in MATLAB.
     - title: Robotic Manipulator & Path Planning
       items:
-        - Developed motion planning for a 3-DOF manipulator using Dubin's path constraints.
-        - Coupled trajectory generation with a TSP solver for optimal routing across networked targets.
-        - Implemented full system simulation and validation in MATLAB.
-
+        - Developed 3-DOF manipulator motion planning using Dubin’s path constraints.
+        - Coupled with a TSP solver for optimal routing through networks of targets.
+        - Implemented and validated in MATLAB.
     - title: Mechatronics Course Project – Electro-Mechanical Door Lock
       items:
-        - Designed a microcontroller-based access system with photoresistor, keypad, and IR proximity inputs.
-        - Implemented logic in PICBASIC and Arduino; tested integration with locking hardware.
-
+        - Designed a microcontroller-based access system using photoresistors, keypads, and proximity sensors.
+        - Programmed in PICBASIC and Arduino; verified with hardware integration.
+- title: Volunteering
+  type: time_table
+  contents:
+    - title: Undergraduate Research Assistant
+      institution: Colorado State University, Superconductivity Physics Lab
+      year: 2018–2019
+      description:
+        - Created transition edge sensors via photolithography on silicon dies.
+        - Gained hands-on experience in lithographic and cryogenic lab techniques.
+        - Gained advanced understanding of magnetic/electric field physics
 - title: Skills & Coursework
   type: nested_list
   contents:
@@ -96,17 +143,64 @@
         - Kinematics and dynamics of manipulators
         - Tendon-driven and continuum robotics
         - Path planning and optimization
-        - Classical and modern control theory (PID, LQR, feedback linearization)
-        - Reinforcement learning and Markov decision processes (MDPs)
-
+        - Classical and modern control (PID, LQR, feedback linearization, adaptive control, sliding mode control etc.)
+        - Reinforcement learning and Markov decision processes
     - title: Software Tools & Languages
       items:
         - Python, C++, ROS, MATLAB, Simulink, Bash, Git, GitHub Copilot
-        - Simulation and modeling tools for control and optimization
-
+        - Simulation and modeling for robotic control and path planning
     - title: Specialized Engineering Topics
       items:
         - Combustion science
-        - Vehicle dynamics and turbo machinery
-        - Mechatronic system modeling
+        - Vehicle dynamics
+        - Turbo machinery
+        - Mechatronic system modeling (electrical/magnetic circuits)
+        - Advanced mechanical systems
         - Optimization (linear, non-linear, integer programming)
+        - 'Additionally: CAD, Advanced Math, Physics, Linear Algebra, Non-linear Systems'
+- title: Certificates
+  type: list
+  contents:
+    - Python
+    - C++
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2018–2021
+      items:
+        - Dean’s List (5 semesters)
+    - year: 2019
+      items:
+        - 3rd place award for Mechatronics course project
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Robotics
+      items:
+        - Path planning
+        - Dynamics, kinematics
+        - Algorithm development
+    - title: Controls
+    - title: Optimization
+    - title: Software, Reinforcement Learning, and AI
+    - title: Mechatronics and EM field theory
+    - title: Combustion Science
+- title: Other Unique Experiences
+  type: list
+  contents:
+    - 'Grad: Tour of multi-million semiconductor manufacturing plant and observation into critical work to fix bottle neck process in clean room environment'
+    - 'Undergrad: Tour of semiconductor manufacturing plant focusing on process flow, quality and safety'
+    - 'Undergrad: Tour of coal power plant'
+    - 'High School: Welding Class - Fabricated a fire pit, and custom table utilizing refurbished barn wood'
+    - 'High School: Took object orientated programming in Java'
+    - 'High School: AP Physics'
+- title: Other Jobs
+  type: list
+  contents:
+    - Private Tutor
+    - Burrito Roller
+    - Mongolian Barbecue – Chef
+- title: Other Interests and Hobbies
+  type: list
+  contents:
+    - Piano, Music, Hiking, Cooking, Weightlifting, Chess, Reading, Geopolitics, Breweries, and Skiing
