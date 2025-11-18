@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 3
-cv_pdf: Roman_Yoder_Summer_2025_Resume.pdf
+cv_pdf: Roman_Yoder_Fall_2025_Resume.pdf
 description: Find an overview of my experience below
 toc:
   sidebar: left
