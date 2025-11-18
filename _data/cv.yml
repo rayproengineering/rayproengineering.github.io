@@ -15,12 +15,15 @@
       institution: Medtronic
       year: 2024 - Present
       description:
-        - Developed core control software for a flexible tendon-driven catheter system for robotic-assisted lung procedures.
-        - Transitioned experimental research code into production-grade implementation as part of the New Product Development (NPD) lifecycle.
-        - 'Filed internal IP disclosures: catheter auto-homing, redundant DOF insertion, buckling mitigation, continuum force estimation.'
-        - Designed and implemented delay pre-compensation to correct tendon transmission latency.
-        - Built digital-twin-based safety heuristics to infer catheter shape and assess insertion risk.
-        - Created modular Jacobian-based optimization to decouple kinematic subproblems and enable scalable trajectory planning.
+      - Developed core control software for a tendon-driven flexible catheter used in robotic bronchoscopy.
+      - Contributed to a foundational understanding of catheter mechanics/kinematics.
+      - Transitioned early-stage research into robust, validated software as part of the New Product Development lifecycle.
+      - Filed multiple IP disclosures, including auto-homing, redundant DOF insertion control, buckling detection/prevention, and continuum force-sensing methods.
+      - Implemented delay pre-compensation algorithms to correct transmission latency and improve distal tip accuracy.
+      - Built a proof-of-concept safety system using ideal vs. measured insertion lengths inside a lung digital twin to detect obstruction risk.
+      - Contributed to the design of a modular Jacobian-based optimization pipeline enabling scalable, centralized control of robotic systems.
+      - Integrated a distributed fail-safe mechanism across multiple compute nodes for consistent system-level fault recovery.
+      - Mentored student engineers and contributed technical guidance on emerging continuum-robotics initiatives.
     - title: Research Engineer (Contract)
       institution: Medtronic
       year: 2022 - 2023
