@@ -3,4 +3,4 @@
 	url = https://github.com/rayproengineering/Obsidian_Blog.git
 [submodule "_books"]
 	path = _books
-	url = git@github.com:rayproengineering/Obsidian_Book_Reviews.git
+	url = https://github.com/rayproengineering/Obsidian_Book_Reviews.git
