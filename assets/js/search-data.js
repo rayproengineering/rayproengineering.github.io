@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/art/";
               },
-            },{id: "post-what-software-skills-i-had-to-learn-as-a-mechanical-engineer-in-robotics-and-controls-summary",
+            },{id: "post-some-of-my-favorite-bash-commands-2025",
+        
+          title: "Some of my favorite bash commands - 2025",
+        
+        description: "A table of my favorite bash commands.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Some-My-Favorite-Bash-Commands/";
+          
+        },
+      },{id: "post-what-software-skills-i-had-to-learn-as-a-mechanical-engineer-in-robotics-and-controls-summary",
         
           title: "What software skills I had to learn as a mechanical engineer in robotics...",
         
@@ -59,10 +70,15 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/Learning-Robotics-as-an-ME/";
+            window.location.href = "/blog/2024/Learning-SW-as-an-ME/";
           
         },
-      },{id: "books-brave-new-world",
+      },{id: "books-atomic-habits",
+          title: 'Atomic Habits',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Atomic-Habits/";
+            },},{id: "books-brave-new-world",
           title: 'Brave New World',
           description: "",
           section: "Books",handler: () => {
