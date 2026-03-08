@@ -1,6 +1,6 @@
 [submodule "_posts/Obsidian_Blog"]
     path = _posts/Obsidian_Blog
-    url = https://github.com/rayproengineering/Obsidian_Blog.git
+    url = git@github.com:rayproengineering/Obsidian_Blog.git
 [submodule "_books"]
     path = _books
-    url = https://github.com/rayproengineering/Obsidian_Book_Reviews.git
+    url = git@github.com:rayproengineering/Obsidian_Book_Reviews.git

@@ -74,7 +74,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0 # fetch all history for all branches and tags
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
