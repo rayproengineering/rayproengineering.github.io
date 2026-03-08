@@ -55,7 +55,32 @@ ninja.data = [{
             window.location.href = "/blog/2024/Learning-Robotics-as-an-ME/";
           
         },
-      },{id: "books-modern-robotics",
+      },{id: "books-brave-new-world",
+          title: 'Brave New World',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Brave-New-World/";
+            },},{id: "books-dune",
+          title: 'Dune',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/DUNE-MESSIAH/";
+            },},{id: "books-dune",
+          title: 'Dune',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/DUNE/";
+            },},{id: "books-enders-game",
+          title: 'Enders Game',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Enders-Game/";
+            },},{id: "books-how-to-win-friends-amp-influence-people",
+          title: 'How To Win Friends &amp;amp; Influence People',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/HOW-TO-WIN-FRIENDS/";
+            },},{id: "books-modern-robotics",
           title: 'Modern Robotics',
           description: "",
           section: "Books",handler: () => {
