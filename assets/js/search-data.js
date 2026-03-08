@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-art",
+          title: "Art",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/art/";
+          },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
@@ -43,6 +50,13 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/blog/";
+              },
+            },{id: "dropdown-art",
+              title: "art",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/art/";
               },
             },{id: "post-what-software-skills-i-had-to-learn-as-a-mechanical-engineer-in-robotics-and-controls-summary",
         
