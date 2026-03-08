@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robotic Manipulators, 3 Degree of freedom robotic arm
-description: 
+description:
 img: assets/img/3degmanip.png
 importance: 5
 category: Graduate Engineering

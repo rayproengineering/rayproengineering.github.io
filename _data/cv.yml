@@ -15,15 +15,15 @@
       institution: Medtronic
       year: 2024 - Present
       description:
-      - Developed core control software for a tendon-driven flexible catheter used in robotic bronchoscopy.
-      - Contributed to a foundational understanding of catheter mechanics/kinematics.
-      - Transitioned early-stage research into robust, validated software as part of the New Product Development lifecycle.
-      - Filed multiple IP disclosures, including auto-homing, redundant DOF insertion control, buckling detection/prevention, and continuum force-sensing methods.
-      - Implemented delay pre-compensation algorithms to correct transmission latency and improve distal tip accuracy.
-      - Built a proof-of-concept safety system using ideal vs. measured insertion lengths inside a lung digital twin to detect obstruction risk.
-      - Contributed to the design of a modular Jacobian-based optimization pipeline enabling scalable, centralized control of robotic systems.
-      - Integrated a distributed fail-safe mechanism across multiple compute nodes for consistent system-level fault recovery.
-      - Mentored student engineers and contributed technical guidance on emerging continuum-robotics initiatives.
+        - Developed core control software for a tendon-driven flexible catheter used in robotic bronchoscopy.
+        - Contributed to a foundational understanding of catheter mechanics/kinematics.
+        - Transitioned early-stage research into robust, validated software as part of the New Product Development lifecycle.
+        - Filed multiple IP disclosures, including auto-homing, redundant DOF insertion control, buckling detection/prevention, and continuum force-sensing methods.
+        - Implemented delay pre-compensation algorithms to correct transmission latency and improve distal tip accuracy.
+        - Built a proof-of-concept safety system using ideal vs. measured insertion lengths inside a lung digital twin to detect obstruction risk.
+        - Contributed to the design of a modular Jacobian-based optimization pipeline enabling scalable, centralized control of robotic systems.
+        - Integrated a distributed fail-safe mechanism across multiple compute nodes for consistent system-level fault recovery.
+        - Mentored student engineers and contributed technical guidance on emerging continuum-robotics initiatives.
     - title: Research Engineer (Contract)
       institution: Medtronic
       year: 2022 - 2023
@@ -34,20 +34,20 @@
       institution: Texas A&M University
       year: 2023
       description:
-      - In addition to thesis work, contributed to proposal for automatic cash counting for cash counting logistics company
+        - In addition to thesis work, contributed to proposal for automatic cash counting for cash counting logistics company
     - title: Graduate Teaching Assistant
       institution: Texas A&M University
       year: 2022(2-Semesters)
       description:
-        - 'GTA in undergraduate Dynamics and Controls: Led lab instruction and MATLAB/Simulink-based simulation/experimentation work for various control applications teaching P, PI, and PID control.'
-        - 'GTA in undergraduate Advanced Dynamics and Controls: facilitating advanced understanding of PID synthesis, coordinate frames, Newton and Lagrange Dynamics.'
-        - 'GTA in Graduate Controls.'
+        - "GTA in undergraduate Dynamics and Controls: Led lab instruction and MATLAB/Simulink-based simulation/experimentation work for various control applications teaching P, PI, and PID control."
+        - "GTA in undergraduate Advanced Dynamics and Controls: facilitating advanced understanding of PID synthesis, coordinate frames, Newton and Lagrange Dynamics."
+        - "GTA in Graduate Controls."
     - title: Professional Mover
       year: 2021
     - title: Undergraduate Research Assistant
       institution: Colorado State University, Commercialization Hub CoLab
-      description: 
-      - 'see projects: Capstone - Jet Impingement Server Cooling'
+      description:
+        - "see projects: Capstone - Jet Impingement Server Cooling"
       year: 2020 - 2021
     - title: Undergraduate Learning Assistant
       institution: Colorado State University
@@ -63,7 +63,7 @@
         - Conducted design verification of box culvert and manhole drawings per ASTM and FDOT specifications.
         - Contributed to customer outreach and marketing strategies in technical education.
         - First hand look into creation of DOT policy creation and funds allocation.
-        - 'Attended civil engineering conferences or toured manufacturing plants in: Memphis TN, Biloxi MS, New Orleans LA, Austin TX.'
+        - "Attended civil engineering conferences or toured manufacturing plants in: Memphis TN, Biloxi MS, New Orleans LA, Austin TX."
     - title: Sushi Chef
       institution: Suehiro
       year: 2016 - 2018
@@ -77,7 +77,7 @@
       year: 2021 - 2023
       description:
         - "GPA : 3.72"
-        - 'Focused in advanced robotics coursework: manipulators, reinforcement learning, non-linear control, etc.'
+        - "Focused in advanced robotics coursework: manipulators, reinforcement learning, non-linear control, etc."
         - Completed thesis and project work in robotic welding, nonlinear control, and reinforcement learning (see Projects section).
     - title: Bachelor of Science in Mechanical Engineering
       institution: Colorado State University
@@ -160,7 +160,7 @@
         - Mechatronic system modeling (electrical/magnetic circuits)
         - Advanced mechanical systems
         - Optimization (linear, non-linear, integer programming)
-        - 'Additionally: CAD, Advanced Math, Physics, Linear Algebra, Non-linear Systems'
+        - "Additionally: CAD, Advanced Math, Physics, Linear Algebra, Non-linear Systems"
 - title: Certificates
   type: list
   contents:
@@ -191,12 +191,12 @@
 - title: Other Unique Experiences
   type: list
   contents:
-    - 'Grad: Tour of multi-million semiconductor manufacturing plant and observation into critical work to fix bottle neck process in clean room environment'
-    - 'Undergrad: Tour of semiconductor manufacturing plant focusing on process flow, quality and safety'
-    - 'Undergrad: Tour of coal power plant'
-    - 'High School: Welding Class - Fabricated a fire pit, and custom table utilizing refurbished barn wood'
-    - 'High School: Took object orientated programming in Java'
-    - 'High School: AP Physics'
+    - "Grad: Tour of multi-million semiconductor manufacturing plant and observation into critical work to fix bottle neck process in clean room environment"
+    - "Undergrad: Tour of semiconductor manufacturing plant focusing on process flow, quality and safety"
+    - "Undergrad: Tour of coal power plant"
+    - "High School: Welding Class - Fabricated a fire pit, and custom table utilizing refurbished barn wood"
+    - "High School: Took object orientated programming in Java"
+    - "High School: AP Physics"
 - title: Other Jobs
   type: list
   contents:

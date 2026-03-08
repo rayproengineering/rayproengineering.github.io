@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Non-Linear Feedback Linearization for Missile Control
-description: 
+description:
 img: assets/img/nonlin_pic.png
 importance: 3
 category: Graduate Engineering

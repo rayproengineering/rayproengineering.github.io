@@ -3,10 +3,9 @@ layout: page
 ---
 {{ content }}
 
-{%- assign textbooks = site.books | where: "type", "textbook" -%}
-{%- assign general_books = site.books | where: "type", "book" -%}
-{%- assign other_books = site.books | reject: "type", "textbook" | reject: "type", "book" -%}
-
+{%- assign textbooks = site.books | where: 'type', 'textbook' -%}
+{%- assign general_books = site.books | where: 'type', 'book' -%}
+{%- assign other_books = site.books | reject: 'type', 'textbook' | reject: 'type', 'book' -%}
 
 <h2>Textbooks</h2>
 <ul class="book-list">
@@ -35,7 +34,13 @@ layout: page
         {% if book.url %}</a>{% endif %}
       </figure>
       <div class="book-meta">
-        <strong>{% if book.url %}<a href="{{ book.url | relative_url }}">{{ book.title }}</a>{% else %}{{ book.title }}{% endif %}</strong>
+        <strong>
+          {%- if book.url -%}
+            <a href="{{ book.url | relative_url }}">{{ book.title }}</a>
+          {%- else -%}
+            {{- book.title -}}
+          {%- endif -%}
+        </strong>
         {% if book.author %} by {{ book.author }}{% endif %}
       </div>
     </li>
@@ -69,77 +74,81 @@ layout: page
         {% if book.url %}</a>{% endif %}
       </figure>
       <div class="book-meta">
-        <strong>{% if book.url %}<a href="{{ book.url | relative_url }}">{{ book.title }}</a>{% else %}{{ book.title }}{% endif %}</strong>
+        <strong>
+          {%- if book.url -%}
+            <a href="{{ book.url | relative_url }}">{{ book.title }}</a>
+          {%- else -%}
+            {{- book.title -}}
+          {%- endif -%}
+        </strong>
         {% if book.author %} by {{ book.author }}{% endif %}
       </div>
     </li>
   {% endfor %}
 </ul>
 
-
 {% comment %}
-<h2>Other Books</h2>
-<ul class="book-list">
-  {% for book in other_books %}
-    <li>
-      <figure class="cover">
-        {% if book.url %}<a class="cover-link" href="{{ book.url | relative_url }}">{% endif %}
-        {% if book.cover %}
-          <img alt="{{ book.title }} cover" src="{{ book.cover | relative_url }}" style="height:200px">
-        {% elsif book.olid %}
-          <img alt="{{ book.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ book.olid }}-L.jpg?default=false" style="height:200px">
-        {% elsif book.isbn %}
-          <img alt="{{ book.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ book.isbn }}-L.jpg?default=false" style="height:200px">
-        {% endif %}
-        {% if book.status %}
-          {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
-          {% assign status = book.status | downcase | strip %}
-          {% if statuses contains status %}
-            <figcaption class="{{ status }}">{{ status | upcase }}</figcaption>
+  <h2>Other Books</h2>
+  <ul class="book-list">
+    {% for book in other_books %}
+      <li>
+        <figure class="cover">
+          {% if book.url %}<a class="cover-link" href="{{ book.url | relative_url }}">{% endif %}
+          {% if book.cover %}
+            <img alt="{{ book.title }} cover" src="{{ book.cover | relative_url }}" style="height:200px">
+          {% elsif book.olid %}
+            <img alt="{{ book.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ book.olid }}-L.jpg?default=false" style="height:200px">
+          {% elsif book.isbn %}
+            <img alt="{{ book.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ book.isbn }}-L.jpg?default=false" style="height:200px">
+          {% endif %}
+          {% if book.status %}
+            {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+            {% assign status = book.status | downcase | strip %}
+            {% if statuses contains status %}
+              <figcaption class="{{ status }}">{{ status | upcase }}</figcaption>
+            {% else %}
+              <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+            {% endif %}
           {% else %}
             <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
           {% endif %}
-        {% else %}
-          <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
-        {% endif %}
-        {% if book.url %}</a>{% endif %}
-      </figure>
-      <div class="book-meta">
-        <strong>{% if book.url %}<a href="{{ book.url | relative_url }}">{{ book.title }}</a>{% else %}{{ book.title }}{% endif %}</strong>
-        {% if book.author %} by {{ book.author }}{% endif %}
-      </div>
-    </li>
-  {% endfor %}
-</ul>
-{% endcomment %}
-
-
-{% comment %}
-The following block is the original year-based sorting, now commented out:
-{% endcomment %}
-{% comment %}
-{% if page.collection and page.collection.size > 0 %}
-  {% assign collection = site[page.collection] %}
-  {% if collection and collection.size > 0 %}
-    {% for item in collection reversed %}
-      {% assign current_year = item.date | date: '%Y' %}
-      {% if current_year != year %}
-        {% unless forloop.first %}
-          </ul>
-        {% endunless %}
-        <h1 id="y{{item.date | date: "%Y"}}">
-          <a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a>
-        </h1>
-        <ul>
-          {% assign year = current_year %}
-      {% endif %}
-      <figure class="cover">
-        ...
-      </figure>
-      {% if forloop.last %}
-        </ul>
-      {% endif %}
+          {% if book.url %}</a>{% endif %}
+        </figure>
+        <div class="book-meta">
+          <strong>{% if book.url %}<a href="{{ book.url | relative_url }}">{{ book.title }}</a>{% else %}{{ book.title }}{% endif %}</strong>
+          {% if book.author %} by {{ book.author }}{% endif %}
+        </div>
+      </li>
     {% endfor %}
+  </ul>
+{% endcomment %}
+
+{% comment %}
+  The following block is the original year-based sorting, now commented out:
+{% endcomment %}
+{% comment %}
+  {% if page.collection and page.collection.size > 0 %}
+    {% assign collection = site[page.collection] %}
+    {% if collection and collection.size > 0 %}
+      {% for item in collection reversed %}
+        {% assign current_year = item.date | date: '%Y' %}
+        {% if current_year != year %}
+          {% unless forloop.first %}
+            </ul>
+          {% endunless %}
+          <h1 id="y{{item.date | date: "%Y"}}">
+            <a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a>
+          </h1>
+          <ul>
+            {% assign year = current_year %}
+        {% endif %}
+        <figure class="cover">
+          ...
+        </figure>
+        {% if forloop.last %}
+          </ul>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
   {% endif %}
-{% endif %}
 {% endcomment %}

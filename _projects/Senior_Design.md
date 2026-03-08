@@ -4,7 +4,7 @@ title: Senior Design Practicum - Jet Impingement Server Cooling
 description: year long research project
 img: assets/img/jet_imp.JPG
 importance: 1
-category:  Undergraduate Engineering
+category: Undergraduate Engineering
 related_publications: false
 ---
 
@@ -19,6 +19,4 @@ During this project I worked with graduate students to develop single investigat
   </div>
 </div>
 
-
 ---
-

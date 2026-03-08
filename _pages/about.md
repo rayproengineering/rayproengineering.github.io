@@ -11,10 +11,7 @@ subtitle: Professional Engineering
 news: false
 selected_papers: false
 social: true
-
-
 ---
-
 
 ## About Me
 
@@ -29,11 +26,9 @@ Feel free to explore my site and check out my previous thesis work in the video 
 
 ---
 
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/weld_vid_mp4.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 ---
-

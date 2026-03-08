@@ -1,7 +1,7 @@
 ---
 layout: page
 title: An Analysis of Dubin’s Vehicle and the Traveling Salesman Problem
-description: 
+description:
 img: assets/img/Dubins.png
 importance: 4
 category: Graduate Engineering
